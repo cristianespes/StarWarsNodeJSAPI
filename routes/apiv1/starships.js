@@ -30,7 +30,7 @@ router.get('/', async function(req, res, next) {
     const starship_class = req.query.starship_class;
 
     const pilot = req.query.pilot;
-    const film = req.query.film;
+    const episode = req.query.episode;
 
     // Recogemos los parámetros de skip & limit
     const skip = parseInt(req.query.skip);
@@ -109,8 +109,8 @@ router.get('/', async function(req, res, next) {
       filter.pilots = { '$in': [ pilot ] };
     }
 
-    if (film) {
-        filter.films = { '$in': [ film ] };
+    if (episode) {
+        filter.episodes = { '$in': [ episode ] };
       }
 
     // Almacenamos la búsqueda en la variable

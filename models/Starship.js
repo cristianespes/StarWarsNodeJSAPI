@@ -20,7 +20,7 @@ const starshipSchema = mongoose.Schema({
     MGLT: String,
     starship_class: String,
     pilots: [String],
-    films: [String],
+    episodes: [String],
     url: String,
     image: String
 });
@@ -42,7 +42,7 @@ starshipSchema.index({ hyperdrive_rating: 1 });
 starshipSchema.index({ MGLT: 1 });
 starshipSchema.index({ starship_class: 1 });
 starshipSchema.index({ pilots: 1 });
-starshipSchema.index({ films: 1 });
+starshipSchema.index({ episodes: 1 });
 starshipSchema.index({ url: 1 });
 
 

@@ -15,7 +15,7 @@
             "MGLT": "60",
             "starship_class": "Corvette",
             "pilots": [],
-            "films":  ["3", "4", "6"],
+            "episodes":  ["3", "4", "6"],
             "url": "1",
             "image": "https://vignette.wikia.nocookie.net/starwars/images/4/47/Rebels-TantiveIVConceptArt-CroppedBackground.png/revision/latest/scale-to-width-down/350"
         }, {
@@ -34,7 +34,7 @@
             "MGLT": "60",
             "starship_class": "Star Destroyer",
             "pilots": [],
-            "films":  ["4", "5", "6"],
+            "episodes":  ["4", "5", "6"],
             "url": "2",
             "image": "https://vignette.wikia.nocookie.net/starwars/images/5/58/ISD-I.png/revision/latest/scale-to-width-down/350"
         } ]

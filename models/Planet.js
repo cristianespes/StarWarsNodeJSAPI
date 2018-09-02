@@ -16,7 +16,7 @@ const planetSchema = mongoose.Schema({
     surface_water: String,
     population: String,
     residents: [String],
-    films: [String],
+    episodes: [String],
     url: String,
     image: String
 });
@@ -34,7 +34,7 @@ planetSchema.index({ terrain: 1 });
 planetSchema.index({ surface_water: 1 });
 planetSchema.index({ population: 1 });
 planetSchema.index({ residents: 1 });
-planetSchema.index({ films: 1 });
+planetSchema.index({ episodes: 1 });
 planetSchema.index({ url: 1 });
 
 

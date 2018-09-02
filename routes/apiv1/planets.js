@@ -26,7 +26,7 @@ router.get('/', async function(req, res, next) {
     const population = req.query.population;
 
     const resident = req.query.resident;
-    const film = req.query.film;
+    const episode = req.query.episode;
 
     // Recogemos los parámetros de skip & limit
     const skip = parseInt(req.query.skip);
@@ -89,8 +89,8 @@ router.get('/', async function(req, res, next) {
       filter.residents = { '$in': [ resident ] };
     }
 
-    if (film) {
-        filter.films = { '$in': [ film ] };
+    if (episode) {
+        filter.episodes = { '$in': [ episode ] };
       }
 
     // Almacenamos la búsqueda en la variable

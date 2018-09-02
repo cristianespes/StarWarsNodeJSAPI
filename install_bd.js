@@ -50,6 +50,7 @@ const loadModels = async function() {
         await deleteDocuments(Character);
         await deleteDocuments(Film);
         await deleteDocuments(Planet);
+        await deleteDocuments(Starship);
         console.log('Se han eliminado los documentos existentes');
 
         // Genera un array con todos los modelos
