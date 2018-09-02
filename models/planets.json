@@ -1,0 +1,33 @@
+{
+    "documentos": [ {
+            "id": 1,
+            "name": "Tatooine",
+            "rotation_period": "23",
+            "orbital_period": "304",
+            "diameter": "10465",
+            "climate": "arid",
+            "gravity": "1 standard",
+            "terrain": "desert",
+            "surface_water": "1",
+            "population": "200000",
+            "residents": ["1", "2", "4", "6", "7", "8", "9", "11", "43", "62"],
+            "films":  ["1", "2", "3", "4", "6"],
+            "url": "1",
+            "image": "https://www.universeguide.com/mobile/tatooine.jpg"
+        }, {
+            "id": 2,
+            "name": "Alderaan",
+            "rotation_period": "24",
+            "orbital_period": "364",
+            "diameter": "12500",
+            "climate": "temperate",
+            "gravity": "1 standard",
+            "terrain": "grasslands, mountains",
+            "surface_water": "40",
+            "population": "2000000000",
+            "residents": ["5", "68", "81"],
+            "films":  ["3", "4"],
+            "url": "2",
+            "image": "https://vignette.wikia.nocookie.net/es.starwars/images/4/4a/Alderaan.jpg/revision/latest/scale-to-width-down/350"
+        } ]
+}

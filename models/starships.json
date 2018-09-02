@@ -1,0 +1,41 @@
+{
+    "documentos": [ {
+            "id": 1,
+            "name": "CR90 Corvette",
+            "model": "CR90 Corvette",
+            "manufacturer": "Corellian Engineering Corporation",
+            "cost_in_credits": "3500000",
+            "length": "150",
+            "max_atmosphering_speed": "950",
+            "crew": "165",
+            "passengers": "600",
+            "cargo_capacity": "3000000",
+            "consumables": "1 year",
+            "hyperdrive_rating": "2.0",
+            "MGLT": "60",
+            "starship_class": "Corvette",
+            "pilots": [],
+            "films":  ["3", "4", "6"],
+            "url": "1",
+            "image": "https://vignette.wikia.nocookie.net/starwars/images/4/47/Rebels-TantiveIVConceptArt-CroppedBackground.png/revision/latest/scale-to-width-down/350"
+        }, {
+            "id": 2,
+            "name": "Star Destroyer",
+            "model": "Imperial I-class Star Destroyer",
+            "manufacturer": "Kuat Drive Yards",
+            "cost_in_credits": "150000000",
+            "length": "1,600",
+            "max_atmosphering_speed": "975",
+            "crew": "47060",
+            "passengers": "0",
+            "cargo_capacity": "36000000",
+            "consumables": "2 years",
+            "hyperdrive_rating": "2.0",
+            "MGLT": "60",
+            "starship_class": "Star Destroyer",
+            "pilots": [],
+            "films":  ["4", "5", "6"],
+            "url": "2",
+            "image": "https://vignette.wikia.nocookie.net/starwars/images/5/58/ISD-I.png/revision/latest/scale-to-width-down/350"
+        } ]
+}

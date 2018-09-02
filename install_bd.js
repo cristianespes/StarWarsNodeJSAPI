@@ -4,6 +4,8 @@ const fs = require('fs');
 const path = require('path');
 const Character = require('./models/Character');
 const Film = require('./models/Film');
+const Planet = require('./models/Planet');
+const Starship = require('./models/Starship');
 
 // Función para eliminar los documentos existentes de la colección
 function deleteDocuments(documento) {
@@ -47,6 +49,7 @@ const loadModels = async function() {
         // Eliminar documentos existentes de la colección
         await deleteDocuments(Character);
         await deleteDocuments(Film);
+        await deleteDocuments(Planet);
         console.log('Se han eliminado los documentos existentes');
 
         // Genera un array con todos los modelos
@@ -56,12 +59,20 @@ const loadModels = async function() {
             const saveCharacter = new Character(character);
             await saveCharacter.save();
         }
-        // Genera un array con todos los modelos
         const arrFilms = await extractModels('films');
-        // Guardar documento en la base de datos
         for (const film of arrFilms) {
             const saveFilm = new Film(film);
             await saveFilm.save();
+        }
+        const arrPlanets = await extractModels('planets');
+        for (const planet of arrPlanets) {
+            const savePlanet = new Planet(planet);
+            await savePlanet.save();
+        }
+        const arrStarships = await extractModels('starships');
+        for (const starship of arrStarships) {
+            const saveStarship = new Starship(starship);
+            await saveStarship.save();
         }
         console.log('Se han guardado los documentos en la base de datos');
 

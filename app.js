@@ -28,8 +28,10 @@ app.use(express.static(path.join(__dirname, 'public'))); // ficheros estáticos
 /**
  * Rutas de mi api
  */
-app.use('/apiv1/people',      require('./routes/apiv1/people'));
-app.use('/apiv1/films',      require('./routes/apiv1/films'));
+app.use('/apiv1/people',    require('./routes/apiv1/people'));
+app.use('/apiv1/films',     require('./routes/apiv1/films'));
+app.use('/apiv1/planets',   require('./routes/apiv1/planets'));
+app.use('/apiv1/starships',   require('./routes/apiv1/starships'));
 
 /**
  * Rutas de la aplicación web
