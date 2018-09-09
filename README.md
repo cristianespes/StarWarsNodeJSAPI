@@ -83,7 +83,7 @@ To go to the base URL, you can use:
 
 http://localhost:3001/apiv1/films
 
-https://starwarsapi.cristianespes.com/apiv1/films (Domain for the DevOps Infrastucture) - Not available yet
+http://starwarsapi.cristianespes.com/apiv1/films (Domain for the DevOps Infrastucture)
 
 #### Searching all films - GET Method
 
@@ -174,7 +174,7 @@ To go to the base URL, you can use:
 
 http://localhost:3001/apiv1/people
 
-https://starwarsapi.cristianespes.com/apiv1/people (Domain for the DevOps Infrastucture) - Not available yet
+http://starwarsapi.cristianespes.com/apiv1/people (Domain for the DevOps Infrastucture)
 
 #### Searching all people - GET Method
 
@@ -265,7 +265,7 @@ To go to the base URL, you can use:
 
 http://localhost:3001/apiv1/planets
 
-https://starwarsapi.cristianespes.com/apiv1/planets (Domain for the DevOps Infrastucture) - Not available yet
+http://starwarsapi.cristianespes.com/apiv1/planets (Domain for the DevOps Infrastucture)
 
 #### Searching all people - GET Method
 
@@ -354,7 +354,7 @@ To go to the base URL, you can use:
 
 http://localhost:3001/apiv1/starships
 
-https://starwarsapi.cristianespes.com/apiv1/starships (Domain for the DevOps Infrastucture) - Not available yet
+http://starwarsapi.cristianespes.com/apiv1/starships (Domain for the DevOps Infrastucture)
 
 #### Searching all starships - GET Method
 
@@ -442,5 +442,5 @@ http://localhost:3001/apiv1/starships/###starshipID###
 
 ## DevOps Module
 
-- To test the infrastucture of the API, replace the base URL http://localhost:3001 by the domain https://starwarsapi.cristianespes.com
+- To test the infrastucture of the API, replace the base URL http://localhost:3001 by the domain http://starwarsapi.cristianespes.com
 

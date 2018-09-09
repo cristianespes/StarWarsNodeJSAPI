@@ -137,14 +137,14 @@
             "image": "https://lumiere-a.akamaihd.net/v1/images/the-last-jedi-theatrical-poster-film-page_bca06283.jpeg"
         }, {
             "id": 9,
-            "title": "",
+            "title": "Episode IX",
             "subtitle": "Episode IX",
             "episode": "9",
             "film": "9",
             "opening_crawl": "",
-            "director": "",
-            "producer": "",
-            "release_date": "",
+            "director": "J. J. Abrams",
+            "producer": "Kathleen Kennedy, J. J. Abrams, Bryan Burk",
+            "release_date": "2019-12-20",
             "characters": [],
             "planets":  [],
             "starships": [],
